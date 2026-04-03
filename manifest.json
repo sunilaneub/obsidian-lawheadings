@@ -1,0 +1,9 @@
+{
+  "id": "lawheadings",
+  "name": "Law Headings",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Automatische Nummerierung von Headings nach juristischem Schema (A., I., 1., a), aa), (1))",
+  "author": "Linus Wittrin",
+  "isDesktopOnly": false
+}
