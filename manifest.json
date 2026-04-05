@@ -3,7 +3,8 @@
   "name": "Law Headings",
   "version": "1.0.0",
   "minAppVersion": "1.0.0",
-  "description": "Automatische Nummerierung von Headings nach juristischem Schema (A., I., 1., a), aa), (1))",
+  "description": "Automatically number headings using a configurable legal numbering scheme (A., I., 1., a), aa), (1)).",
   "author": "Linus Wittrin",
+  "authorUrl": "https://github.com/sunilaneub",
   "isDesktopOnly": false
 }

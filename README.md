@@ -1,8 +1,14 @@
 # Law Headings
 
-An Obsidian plugin that automatically numbers headings using a legal numbering scheme.
+An Obsidian plugin that automatically numbers headings using a configurable legal numbering scheme. Designed for lawyers, law students, and anyone working with structured legal documents.
 
-## Default scheme
+## Features
+
+- **Automatic numbering** as you type -- headings are numbered in real time
+- **Configurable scheme** -- choose the number style and suffix format for each heading level
+- **Two commands** for bulk operations: re-number all headings or strip all numbering
+
+## Default Numbering Scheme
 
 | Level | Style | Example |
 |-------|-------|---------|
@@ -13,13 +19,25 @@ An Obsidian plugin that automatically numbers headings using a legal numbering s
 | H5 | Double lower alpha | aa) bb) cc) |
 | H6 | Arabic in parens | (1) (2) (3) |
 
-Numbering is applied automatically as you type. The number style and suffix format for each heading level can be configured in the plugin settings.
+Each level can be individually configured in the plugin settings.
 
-## Commands
+## Usage
 
-- **Update heading numbers** — re-number all headings in the current note
-- **Remove heading numbers** — strip all numbering prefixes
+1. Enable the plugin in **Settings > Community plugins**.
+2. Start writing headings -- they will be numbered automatically.
+3. Open the plugin settings to customize the numbering style for each heading level.
+
+### Commands
+
+Open the command palette (`Ctrl/Cmd + P`) and search for:
+
+- **Update heading numbers** -- re-number all headings in the current note
+- **Remove heading numbers** -- strip all numbering prefixes from headings
 
 ## Installation
 
-Copy `main.js`, `manifest.json`, and optionally `styles.css` into your vault's `.obsidian/plugins/lawheadings/` directory, then enable the plugin in Obsidian settings.
+Search for **Law Headings** in **Settings > Community plugins > Browse** and click Install.
+
+### Manual Installation
+
+Download `main.js` and `manifest.json` from the [latest release](https://github.com/sunilaneub/obsidian-lawheadings/releases/latest) and place them in your vault at `.obsidian/plugins/lawheadings/`. Then enable the plugin in Obsidian settings.
